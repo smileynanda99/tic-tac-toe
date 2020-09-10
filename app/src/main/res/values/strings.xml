@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="welcome_status">Welcome to TIC-TAC-TOE</string>
+    <string name="user_first">First Player</string>
+    <string name="user_second">Second Player</string>
+    <string name="vs_image">vs</string>
+    <string name="button_play">PLAY</string>
+    <string name="fiter">First Player v/s Second Player</string>
+    <string name="main_grid">main_grid</string>
+    <string name="c1">c1</string>
+    <string name="c2">c2</string>
+    <string name="c3">c3</string>
+    <string name="c4">c4</string>
+    <string name="c5">c5</string>
+    <string name="c6">c6</string>
+    <string name="c7">c7</string>
+    <string name="c8">c8</string>
+    <string name="c9">c9</string>
+    <string name="trun">First Player Turn</string>
+    <string name="result">Nothing</string>
+    <string name="reset_button">RESTART</string>
+
+
+</resources>

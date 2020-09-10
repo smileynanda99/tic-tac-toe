@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/fiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/fiter"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="379dp"
+        android:layout_height="546dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/main_grid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/grid" />
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/sub_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="137dp"
+            android:orientation="horizontal"
+            android:paddingBottom="0dp">
+
+            <ImageView
+                android:id="@+id/c1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/c1"
+                android:onClick="playToTap"
+                android:paddingBottom="12dp"
+                android:tag="0" />
+
+            <ImageView
+                android:id="@+id/c2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/c2"
+                android:onClick="playToTap"
+                android:paddingBottom="12dp"
+                android:tag="1" />
+
+            <ImageView
+                android:id="@+id/c3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/c3"
+                android:onClick="playToTap"
+                android:paddingBottom="12dp"
+                android:tag="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sub_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp">
+
+            <ImageView
+                android:id="@+id/c4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/c4"
+                android:onClick="playToTap"
+                android:paddingTop="12dp"
+                android:tag="3" />
+
+            <ImageView
+                android:id="@+id/c5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/c5"
+                android:onClick="playToTap"
+                android:paddingTop="12dp"
+                android:tag="4" />
+
+            <ImageView
+                android:id="@+id/c6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/c6"
+                android:onClick="playToTap"
+                android:paddingTop="12dp"
+                android:tag="5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="18dp">
+
+            <ImageView
+                android:id="@+id/c7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/c7"
+                android:onClick="playToTap"
+                android:paddingTop="12dp"
+                android:tag="6" />
+
+            <ImageView
+                android:id="@+id/c8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/c8"
+                android:onClick="playToTap"
+                android:paddingTop="12dp"
+                android:tag="7" />
+
+            <ImageView
+                android:id="@+id/c9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/c9"
+                android:onClick="playToTap"
+                android:paddingTop="12dp"
+                android:tag="8" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/trun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/trun"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/main_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
